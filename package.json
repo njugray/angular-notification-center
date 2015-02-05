@@ -1,7 +1,7 @@
 {
-  "name": "ng-notification",
+  "name": "angular-notification-center",
   "description": "notification service for angularjs based on angular-bootstrap.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "keywords": [
     "notification",
     "angular"
@@ -10,7 +10,7 @@
   "author": "njugray <njugray@gmail.com>",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/njugray/angular-notification-center.git"
   },
   "license": {
     "type": "MIT",
@@ -22,6 +22,7 @@
     "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-uglify": "~0.3.0",
     "grunt-contrib-watch": "~0.5.3",
+    "source-map": "*",
     "load-grunt-tasks": "~0.3.0"
   },
   "scripts": {
