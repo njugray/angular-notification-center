@@ -10,7 +10,7 @@
     "angular",
     "notification",
     "center",
-    "bootstrap",
+    "bootstrap"
   ],
   "license": "MIT",
   "private": true,
