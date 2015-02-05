@@ -7,7 +7,7 @@ module.exports = function (grunt) {
   grunt.initConfig({
 
     jshint: {
-      javascript: ['angular-notification.js'],
+      javascript: ['angular-notification-center.js'],
       options: {
         // options here to override JSHint defaults
         globals: {
@@ -20,11 +20,11 @@ module.exports = function (grunt) {
     uglify: {
       default: {
         options: {
-          sourceMap: 'angular-notification.min.map',
-          sourceMappingURL: 'angular-notification.min.map'
+          sourceMap: 'angular-notification-center.min.map',
+          sourceMappingURL: 'angular-notification-center.min.map'
         },
         files: {
-          'angular-notification.min.js': 'angular-notification.js'
+          'angular-notification-center.min.js': 'angular-notification-center.js'
         }
       }
     }
