@@ -1,0 +1,27 @@
+{
+  "name": "angular-notification-center",
+  "main": "angular-notification-center.js",
+  "version": "0.1.0",
+  "authors": [
+    "njugray <njugray@gmail.com>"
+  ],
+  "description": "notification service for angularjs based on bootstrap CSS",
+  "keywords": [
+    "angular",
+    "notification",
+    "center",
+    "bootstrap",
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "example"
+  ],
+  "dependencies": {
+    "angular": "1.2.28",
+    "bootstrap": "3.1.1"
+  }
+}

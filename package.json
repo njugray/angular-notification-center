@@ -1,0 +1,32 @@
+{
+  "name": "ng-notification",
+  "description": "notification service for angularjs based on angular-bootstrap.",
+  "version": "0.0.1",
+  "keywords": [
+    "notification",
+    "angular"
+  ],
+  "homepage": "",
+  "author": "njugray <njugray@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": {
+    "type": "MIT",
+    "url": ""
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-banner": "~0.2.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.3.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "prestart": "npm install",
+    "start": "grunt connect"
+  }
+}
